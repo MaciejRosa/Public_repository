@@ -1,0 +1,164 @@
+@import url("https://fonts.googleapis.com/css?family=Staatliches");
+
+* {
+  margin: 0 0;
+  padding: 0;
+  font-family: "Staatliches";
+}
+
+body {
+  background: #9bb4db;
+}
+
+/* BUTTONS */
+
+button {
+  position: relative;
+  background: #9bc3ff;
+  border: none;
+  padding: 5px;
+  border: 2px solid black;
+}
+
+button:focus {
+  outline: 0;
+}
+
+button:active {
+  background: #6389c2;
+}
+
+.del_button {
+  background: #5b7bac;
+  border: none;
+  padding: 5px;
+  color: white;
+  border: 2px solid black;
+  border-left: none;
+}
+
+.del_button:active {
+  background: #395072;
+}
+
+.del_button:focus {
+  outline: 0;
+}
+
+#Data-Saving-Button {
+  margin-top: 1%;
+  width: 8%;
+  font-size: 20px;
+  padding: 2px;
+  background: rgb(9, 126, 9);
+  color: white;
+}
+
+/* ----------------------------------------- */
+
+/* MAIN CONTAINER AND INPUT CONTAINER */
+.main {
+  box-sizing: content-box;
+  position: relative;
+  top: 5vh;
+  margin: auto;
+  width: 60%;
+  height: auto;
+  background: #d2dff2;
+  font-size: 19px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  border-radius: 40px;
+  box-shadow: 3px 3px 5px 5px #3e4651;
+  min-width: 500px;
+}
+
+.main > h3 {
+  font-size: 3.5em;
+}
+
+.main > .Add-Input-Button {
+  background: white;
+  outline: none;
+  border: none;
+  padding: 0.5em;
+}
+
+#Input-Container {
+  box-sizing: border-box;
+  position: relative;
+  background: transparent;
+  margin: auto;
+  margin-bottom: 20px;
+  width: 90%;
+  height: auto;
+  padding: 2%;
+}
+/* --------------------------------------------- */
+
+/* STYLES OF INPUTS,SUBINPUTS AND ALL THEIR ELEMENTS */
+.input {
+  position: relative;
+  margin: 3% auto;
+  margin-bottom: 0%;
+  width: 94%;
+  height: auto;
+  padding: 1%;
+  background: lightblue;
+  text-align: left;
+  border: 2px solid black;
+}
+
+.subinput {
+  position: relative;
+  box-sizing: content-box;
+  margin-top: 0%;
+  margin-bottom: 0;
+  margin-left: 1%;
+  width: 96%;
+  height: auto;
+  padding: 2%;
+  padding-bottom: 0%;
+  padding-right: 0;
+  background: transparent;
+  text-align: left;
+}
+
+.textinput,
+.select {
+  position: float;
+  float: right;
+  width: 77%;
+  border: 2px solid black;
+  outline: none;
+  background: white;
+}
+
+.select {
+  width: 78.5%;
+}
+
+.select_sub {
+  position: float;
+  float: right;
+  width: 49%;
+  border: 2px solid black;
+  outline: none;
+  background: white;
+}
+
+.text_input_sub {
+  position: float;
+  float: right;
+  width: 26%;
+  border: 2px solid black;
+  outline: none;
+  background: white;
+  margin-left: 2%;
+}
+
+input[type="text"] {
+  padding-left: 1%;
+}
+/* -------------------------------------------- */
