@@ -41,7 +41,7 @@ function SaveSubinputsInObjects() {
 // Function which saves values of main inputs in objects, also console logs those objects
 function SaveInputsInObjects() {
   for (let i = 0; i < inputIds; i++) {
-    if (document.getElementById("question" + i)) {
+    if (document.getElementById("question" + i)) { //checks if element exists
       let newInput = new savedInput(
         document.getElementById("question" + i).value,
         document.getElementById("select" + i).value,
